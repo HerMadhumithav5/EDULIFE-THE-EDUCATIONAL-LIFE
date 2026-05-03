@@ -39,7 +39,7 @@ function sendOTP() {
           alert("Email address verified successfully!");
 
           // Redirect to home page
-          window.location.href = "/Home/Home.html";
+          window.location.href = "/Home/index.html";
 
           // Cleanup
           otpverify.style.display = "none";
